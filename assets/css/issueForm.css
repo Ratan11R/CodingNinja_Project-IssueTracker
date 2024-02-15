@@ -1,0 +1,45 @@
+.issue-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.issue-form h2 {
+  margin-bottom: 10px;
+}
+
+.issue-form div {
+  margin-bottom: 15px;
+}
+
+.issue-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.issue-form input[type="text"],
+.issue-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #f70505;
+  border-radius: 4px;
+}
+
+.issue-form textarea {
+  height: 100px;
+}
+
+.issue-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ffb20c;
+  color: #f1f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.issue-form button[type="submit"]:hover {
+  background-color: #e00b0b;
+}

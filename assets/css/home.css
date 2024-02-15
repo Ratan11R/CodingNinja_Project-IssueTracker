@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #01b8fa;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* Adjusted */
+  margin-top: 20px; /* Added */
+}
+
+
+li {
+  background-color: #b61919;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.747);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.project-author {
+  font-style: italic;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.project-description {
+  margin-top: 10px;
+}
+
+.view-project-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #0003b3;
+  color: #c0bebe;
+  text-decoration: none;
+  border-radius: 5px;
+  align-self: flex-end;
+  border: 1px solid rgb(246, 247, 241);
+}
+
+.view-project-button:hover {
+  background-color: #0300b6;
+}
+
+.create-button-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0603d6;
+  color: #bac5bcf5;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid rgb(205, 240, 7);
+  
+}
+
+.create-button:hover {
+  background-color: #360575;
+  
+}
+
+.welcome-heading {
+  text-align: center;
+  font-size: 24px;
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
